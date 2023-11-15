@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		977E1BB52B045BCE0011F1D6 /* HotelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E1BB42B045BCE0011F1D6 /* HotelDetail.swift */; };
 		9784C5552AF4890400742B8C /* EverythingShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C5542AF4890400742B8C /* EverythingShopApp.swift */; };
 		9784C5572AF4890400742B8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C5562AF4890400742B8C /* ContentView.swift */; };
 		9784C5592AF4890600742B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9784C5582AF4890600742B8C /* Assets.xcassets */; };
 		9784C55C2AF4890600742B8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9784C55B2AF4890600742B8C /* Preview Assets.xcassets */; };
+		9784C5632AF489DD00742B8C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C5622AF489DD00742B8C /* Product.swift */; };
+		9784C5662AF48A9500742B8C /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C5652AF48A9500742B8C /* CartManager.swift */; };
+		9784C5682AF48C9E00742B8C /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C5672AF48C9D00742B8C /* ProductCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		977E1BB42B045BCE0011F1D6 /* HotelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetail.swift; sourceTree = "<group>"; };
 		9784C5512AF4890400742B8C /* EverythingShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EverythingShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9784C5542AF4890400742B8C /* EverythingShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverythingShopApp.swift; sourceTree = "<group>"; };
 		9784C5562AF4890400742B8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9784C5582AF4890600742B8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9784C55B2AF4890600742B8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9784C5622AF489DD00742B8C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		9784C5652AF48A9500742B8C /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
+		9784C5672AF48C9D00742B8C /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		977E1BB62B045BDF0011F1D6 /* ViewComponent */ = {
+			isa = PBXGroup;
+			children = (
+				977E1BB42B045BCE0011F1D6 /* HotelDetail.swift */,
+			);
+			path = ViewComponent;
+			sourceTree = "<group>";
+		};
 		9784C5482AF4890300742B8C = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +69,10 @@
 			children = (
 				9784C5542AF4890400742B8C /* EverythingShopApp.swift */,
 				9784C5562AF4890400742B8C /* ContentView.swift */,
+				977E1BB62B045BDF0011F1D6 /* ViewComponent */,
+				9784C5652AF48A9500742B8C /* CartManager.swift */,
+				9784C5692AF48CA300742B8C /* Component */,
+				9784C5642AF489E300742B8C /* Model */,
 				9784C5582AF4890600742B8C /* Assets.xcassets */,
 				9784C55A2AF4890600742B8C /* Preview Content */,
 			);
@@ -65,6 +85,22 @@
 				9784C55B2AF4890600742B8C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9784C5642AF489E300742B8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9784C5622AF489DD00742B8C /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9784C5692AF48CA300742B8C /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				9784C5672AF48C9D00742B8C /* ProductCard.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9784C5572AF4890400742B8C /* ContentView.swift in Sources */,
+				977E1BB52B045BCE0011F1D6 /* HotelDetail.swift in Sources */,
+				9784C5662AF48A9500742B8C /* CartManager.swift in Sources */,
 				9784C5552AF4890400742B8C /* EverythingShopApp.swift in Sources */,
+				9784C5682AF48C9E00742B8C /* ProductCard.swift in Sources */,
+				9784C5632AF489DD00742B8C /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
