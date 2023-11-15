@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct HotelDetail: View {
+    
+    
+    
     var body: some View {
         ScrollView {
             VStack {

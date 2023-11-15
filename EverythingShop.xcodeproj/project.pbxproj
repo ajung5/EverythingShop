@@ -15,6 +15,7 @@
 		9784C5632AF489DD00742B8C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C5622AF489DD00742B8C /* Product.swift */; };
 		9784C5662AF48A9500742B8C /* CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C5652AF48A9500742B8C /* CartManager.swift */; };
 		9784C5682AF48C9E00742B8C /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784C5672AF48C9D00742B8C /* ProductCard.swift */; };
+		97B4B46D2B04983300D5F963 /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B4B46C2B04983300D5F963 /* Highlight.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		9784C5622AF489DD00742B8C /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		9784C5652AF48A9500742B8C /* CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartManager.swift; sourceTree = "<group>"; };
 		9784C5672AF48C9D00742B8C /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		97B4B46C2B04983300D5F963 /* Highlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +71,8 @@
 			children = (
 				9784C5542AF4890400742B8C /* EverythingShopApp.swift */,
 				9784C5562AF4890400742B8C /* ContentView.swift */,
-				977E1BB62B045BDF0011F1D6 /* ViewComponent */,
 				9784C5652AF48A9500742B8C /* CartManager.swift */,
+				977E1BB62B045BDF0011F1D6 /* ViewComponent */,
 				9784C5692AF48CA300742B8C /* Component */,
 				9784C5642AF489E300742B8C /* Model */,
 				9784C5582AF4890600742B8C /* Assets.xcassets */,
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9784C5622AF489DD00742B8C /* Product.swift */,
+				97B4B46C2B04983300D5F963 /* Highlight.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				9784C5572AF4890400742B8C /* ContentView.swift in Sources */,
 				977E1BB52B045BCE0011F1D6 /* HotelDetail.swift in Sources */,
+				97B4B46D2B04983300D5F963 /* Highlight.swift in Sources */,
 				9784C5662AF48A9500742B8C /* CartManager.swift in Sources */,
 				9784C5552AF4890400742B8C /* EverythingShopApp.swift in Sources */,
 				9784C5682AF48C9E00742B8C /* ProductCard.swift in Sources */,
